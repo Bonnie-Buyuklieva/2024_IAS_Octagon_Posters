@@ -12,12 +12,8 @@
         </p>
       {%- if site.author %}
         <ul class="contact-list">
-          {% if site.author.name -%}
-           <li class="p-name">{{ '2024' | escape }}</li>
-          {% endif -%}
-          {% if site.author.email -%}
-            <li class="p-name">{{ 'IAS Octagon Small Grants Fund' | escape }}</li>
-          {%- endif %}
+          <li class="p-name">{{ 'IAS Octagon Small Grants Fund' | escape }}</li>
+          <li class="p-name">{{ '2024' | escape }}</li>
         </ul>
       {%- endif %}
       </div>
