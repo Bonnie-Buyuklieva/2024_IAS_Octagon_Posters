@@ -4,4 +4,4 @@ title: "Rhythms in Pixels & Digital Stages - Performance & Accessibility"
 categories: misc
 ---
 
-#What are the limits of a performance space?
+# What are the limits of a performance space?
