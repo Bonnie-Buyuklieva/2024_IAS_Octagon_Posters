@@ -1,14 +1,15 @@
-title: Your awesome title
+title: Intersecting Paths: Society, Arts and Technology
 author:
-  name: GitHub User
-  email: your-email@domain.com
+  name: Bonnie Buyuklieva & Team
+  email: boyana.buyuklieva[at]ucl.ac.uk
 
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
 description: >
-  Write an awesome description for your new site here. You can edit this line
-  in _config.yml. It will appear in your document head meta (for Google search
-  results) and in your feed.xml site description.
+  Our exhibition at UCL's Foster Court (Floor 1) showcases works from 
+  the V&A’s collection alongside a selection of thought-provoking blurbs 
+  to discuss the link between society and the arts.
+
 
 # Build settings
 
