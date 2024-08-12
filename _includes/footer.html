@@ -8,8 +8,8 @@
         <p class="feed-subscribe">
           <a href="{{ site.feed.path | default: 'feed.xml' | absolute_url }}">
             <svg class="svg-icon orange">
-              <use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use>
-            </svg><span>Subscribe</span>
+              <use xlink:href="{{ 'assets/dept_info_studies.png#rss' | https://www.ucl.ac.uk/information-studies }}"></use>
+            </svg><span>UCL Dept of Information Studies</span>
           </a>
         </p>
       {%- if site.author %}
@@ -18,7 +18,7 @@
             <li class="p-name">{{ site.author.name | escape }}</li>
           {% endif -%}
           {% if site.author.email -%}
-            <li><a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
+            <li class="p-name">{{ site.author.name | escape }}</li>
           {%- endif %}
         </ul>
       {%- endif %}
