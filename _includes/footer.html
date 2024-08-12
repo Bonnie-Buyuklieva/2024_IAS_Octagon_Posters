@@ -8,17 +8,17 @@
         <p class="feed-subscribe">
           <a href="{{ site.feed.path | default: 'feed.xml' | absolute_url }}">
             <svg class="svg-icon orange">
-              <use xlink:href="{{ 'assets/dept_info_studies.png#rss' | https://www.ucl.ac.uk/information-studies }}"></use>
+            <a xlink:href="https://www.ucl.ac.uk/information-studies"> <image xlink:href="assets/dept_info_studies.png" /> </a>
             </svg><span>UCL Dept of Information Studies</span>
           </a>
         </p>
       {%- if site.author %}
         <ul class="contact-list">
           {% if site.author.name -%}
-            <li class="p-name">{{ site.author.name | escape }}</li>
+           # <li class="p-name">{{ site.author.name | escape }}</li>
           {% endif -%}
           {% if site.author.email -%}
-            <li class="p-name">{{ site.author.name | escape }}</li>
+            <li class="p-name">{{ 'IAS Octagon Small Grants Fund' | escape }}</li>
           {%- endif %}
         </ul>
       {%- endif %}
